@@ -45,7 +45,7 @@ a:visited, a {
 #main .edition {
   border: 3px solid #25d606;
   border-radius: .25rem;
-  padding-bottom: 2rem;
+  padding-bottom: .5rem;
   background-color: #fff;
 }
 
@@ -55,6 +55,10 @@ a:visited, a {
   position: relative;
   margin-bottom: 2rem;
   color: #fff;
+}
+
+#main .edition figure figcaption {
+  padding: 1.5rem;
 }
 
 #main header .date {
@@ -82,7 +86,7 @@ a:visited, a {
   width: 100%;
   height: 150px;
   display: flex;
-  flow-direction: column;
+  flex-direction: column;
 }
 
 #main .edition-list .cover img {

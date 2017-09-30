@@ -9,6 +9,7 @@ import { HttpModule } from "@angular/http";
 import { EditionListComponent } from "./edition-list.component";
 import { HomeComponent } from "./home.component";
 import { EditionComponent } from "./edition.component";
+import { SplitPipe } from "./pipes/split.pipe";
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { EditionComponent } from "./edition.component";
     EditionComponent,
     EditionDetailComponent,
     EditionListComponent,
+    SplitPipe,
   ],
   imports: [
     BrowserModule,

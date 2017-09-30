@@ -1,7 +1,8 @@
 export class Edition {
     number: number;
     name: string;
+    description: string;
     date: Date;
     cover: URL;
-    images: URL[];
+    image: URL;
 }
