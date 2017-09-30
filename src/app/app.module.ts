@@ -23,7 +23,9 @@ import { EditionComponent } from "./edition.component";
     AppRouterModule,
     HttpModule,
   ],
-  providers: [EditionService],
+  providers: [
+    EditionService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
