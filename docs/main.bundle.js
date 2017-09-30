@@ -371,19 +371,19 @@ var EditionService = (function () {
         this.headers = new __WEBPACK_IMPORTED_MODULE_1__angular_http__["a" /* Headers */]({ 'Content-type': 'application/json' });
     }
     EditionService.prototype.getEdition = function (id) {
-        return this.http.get("/assets/data/edition." + id + ".json")
+        return this.http.get("./assets/data/edition." + id + ".json")
             .toPromise()
             .then(function (response) { return response.json(); })
             .catch(this.handleError);
     };
     EditionService.prototype.getLastEdition = function () {
-        return this.http.get("/assets/data/last_edition.json")
+        return this.http.get("./assets/data/last_edition.json")
             .toPromise()
             .then(function (response) { return response.json(); })
             .catch(this.handleError);
     };
     EditionService.prototype.getEditions = function () {
-        return this.http.get("/assets/data/editions.json")
+        return this.http.get("./assets/data/editions.json")
             .toPromise()
             .then(function (response) { return response.json(); })
             .catch(this.handleError);
