@@ -3,14 +3,14 @@ import { RouterModule, Routes } from '@angular/router'
 import { EditionDetailComponent } from './edition-detail.component'
 import { EditionListComponent } from "./edition-list.component";
 import { HomeComponent } from "./home.component";
-import { whoAreUsComponent } from "./who-are-us.component";
+import { WhoAreUsComponent } from "./who-are-us.component";
 
 var routes: Routes = [
     { path: '', redirectTo: '/home', pathMatch: 'full' },
     { path: 'home', component: HomeComponent },
     { path: 'edicoes', component: EditionListComponent },
     { path: 'edicao/:id', component: EditionDetailComponent },
-    { path: 'quemSomos', component: whoAreUsComponent },
+    { path: 'quemSomos', component: WhoAreUsComponent },
     { path: 'contato', component: EditionListComponent },
 ]
 

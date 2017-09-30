@@ -10,6 +10,7 @@ import { EditionListComponent } from "./edition-list.component";
 import { HomeComponent } from "./home.component";
 import { EditionComponent } from "./edition.component";
 import { SplitPipe } from "./pipes/split.pipe";
+import { WhoAreUsComponent } from "./who-are-us.component"
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { SplitPipe } from "./pipes/split.pipe";
     EditionDetailComponent,
     EditionListComponent,
     SplitPipe,
+    WhoAreUsComponent,
   ],
   imports: [
     BrowserModule,
