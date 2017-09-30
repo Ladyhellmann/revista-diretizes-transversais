@@ -1,1 +1,11 @@
-<div class="who-are-us">work</div>
+<div class="who-are-us">
+    <div *ngFor="let person of equip; let i = index" class="person {{ i % 2 == 0 ? 'even' : 'odd' }}">
+        <figure><img src="{{ person.image }}" /></figure>
+        <div class="details">
+            <h1>{{ person.name }}</h1>
+            <p *ngFor="let line of person.sub | split: '\n'">
+                {{ line }}
+            </p>
+        </div>
+    </div>
+</div>
