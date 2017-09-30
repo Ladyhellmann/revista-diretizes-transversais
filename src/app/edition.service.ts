@@ -13,21 +13,21 @@ export class EditionService {
   constructor(private http: Http) { }
 
   getEdition(id: number): Promise<Edition> {
-    return this.http.get(`/assets/data/edition.${id}.json`)
+    return this.http.get(`./assets/data/edition.${id}.json`)
       .toPromise()
       .then(response => response.json() as Edition)
       .catch(this.handleError)
   }
 
   getLastEdition(): Promise<Edition> {
-    return this.http.get(`/assets/data/last_edition.json`)
+    return this.http.get(`./assets/data/last_edition.json`)
       .toPromise()
       .then(response => response.json() as Edition)
       .catch(this.handleError)
   }
 
   getEditions(): Promise<Edition[]> {
-    return this.http.get(`/assets/data/editions.json`)
+    return this.http.get(`./assets/data/editions.json`)
       .toPromise()
       .then(response => response.json() as Edition[])
       .catch(this.handleError)
