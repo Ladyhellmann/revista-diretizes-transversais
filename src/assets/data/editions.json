@@ -1,1 +1,14 @@
-[{"number":1,"name":"Rio Cachoeira","cover":"https://github.com/Ladyhellmann/revista-diretizes-transversais/blob/master/src/assets/images/20170930_143247.jpg?raw=true","date":"2017-09-30"},{"number":2,"name":"Parque Zoobotanico","cover":"https://github.com/Ladyhellmann/revista-diretizes-transversais/blob/master/src/assets/images/20170930_151917.jpg?raw=true","date":"2017-10-02"}]
+[
+    {
+        "number": 1,
+        "name": "Rio Cachoeira",
+        "cover": "https://github.com/Ladyhellmann/revista-diretizes-transversais/blob/master/src/assets/images/20170930_143247.jpg?raw=true",
+        "date": "2017-09-30"
+    },
+    {
+        "number": 2,
+        "name": "Parque Zoobotanico",
+        "cover": "https://github.com/Ladyhellmann/revista-diretizes-transversais/blob/master/src/assets/images/20170930_151917.jpg?raw=true",
+        "date": "2017-10-02"
+    }
+]
