@@ -4,6 +4,7 @@ import { EditionDetailComponent } from './edition-detail.component'
 import { EditionListComponent } from "./edition-list.component";
 import { HomeComponent } from "./home.component";
 import { WhoAreUsComponent } from "./who-are-us.component";
+import { ContactComponent } from "./contact.component";
 
 var routes: Routes = [
     { path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -11,7 +12,7 @@ var routes: Routes = [
     { path: 'edicoes', component: EditionListComponent },
     { path: 'edicao/:id', component: EditionDetailComponent },
     { path: 'quemSomos', component: WhoAreUsComponent },
-    { path: 'contato', component: EditionListComponent },
+    { path: 'contato', component: ContactComponent },
 ]
 
 @NgModule({
