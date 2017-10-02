@@ -191,7 +191,7 @@ AppModule = __decorate([
 /***/ "../../../../../src/app/contact.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "Works"
+module.exports = "<div class=\"contact\">\r\n    <body>\r\n        <h2>Favor entrar em contato atráves do Google Form abaixo :</h2> \r\n        <p><a href=\"https://goo.gl/forms/kSTCzDDkxvCtd27Q2\">Formulario de contato</a>\r\n        </p>\r\n    </body>\r\n</div>"
 
 /***/ }),
 
