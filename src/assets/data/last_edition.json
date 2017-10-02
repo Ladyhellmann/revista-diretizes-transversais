@@ -1,8 +1,1 @@
-{
-    "number": 2,
-    "name": "Parque Zoobotanico",
-    "cover": "https://github.com/Ladyhellmann/revista-diretizes-transversais/blob/master/src/assets/images/20170930_151917.jpg?raw=true",
-    "date": "2017-10-02",
-    "description": "alguma descrição para o parque\nna segunda linha",
-    "image": "https://github.com/Ladyhellmann/revista-diretizes-transversais/blob/master/src/assets/images/20170930_151917.jpg?raw=true"
-}
+{"number":2,"name":"Parque Zoobotanico","cover":"https://github.com/Ladyhellmann/revista-diretizes-transversais/blob/master/src/assets/images/20170930_151917.jpg?raw=true","date":"2017-10-02","description":"alguma descrição para o parque\nna segunda linha","image":"https://github.com/Ladyhellmann/revista-diretizes-transversais/blob/master/src/assets/images/20170930_151917.jpg?raw=true"}
