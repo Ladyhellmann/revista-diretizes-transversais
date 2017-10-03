@@ -1,4 +1,4 @@
 #!/bin/bash
 
-cli/aggregate-editions.js
+node cli/aggregate-editions.js
 ng build --base-href /revista-diretizes-transversais/ --output-path docs
